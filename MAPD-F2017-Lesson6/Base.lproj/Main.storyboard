@@ -109,6 +109,9 @@
                                     <constraint firstAttribute="width" constant="46" id="xc7-3n-PR8"/>
                                 </constraints>
                                 <state key="normal" title="Select"/>
+                                <connections>
+                                    <action selector="inButtonPressed:" destination="UGP-84-30F" eventType="touchUpInside" id="4ak-Ot-DFn"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -121,6 +124,9 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Date" image="clockicon" id="5Op-lY-iyw"/>
+                    <connections>
+                        <outlet property="datePicker" destination="9uj-Ue-PT0" id="rtv-u5-peP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="glz-xf-7Nv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
