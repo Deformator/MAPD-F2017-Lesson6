@@ -1,13 +1,10 @@
 import UIKit
 
-class ViewController: UITabBarController {
+class DoubleComponentPickerViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
     }
 
-
-
 }
-
